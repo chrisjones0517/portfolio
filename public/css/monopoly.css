@@ -1,0 +1,320 @@
+/* These styles pertain to the Monopoly view */
+
+#board {
+    position: relative;
+}
+
+#board-img {
+    position: relative;
+    width: 100%;
+    border: 2px solid #000;
+}
+
+#deedTitle {
+    letter-spacing: 0.5em;
+    border: 2px solid #000;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+#deedDiv {
+    font-weight: 700;
+}
+
+#action-div {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    top: 25%;
+    left: 25%;
+}
+
+.square {
+    position: absolute;
+    text-align: center;
+}
+
+.token {
+    vertical-align: middle;
+    margin-top: 37%;
+}
+
+#go {
+    width: 13%;
+    height: 13%;
+    left: 87%;
+    top: 87%;
+}
+
+#mediterranean {
+    width: 8.3%;
+    height: 13%;
+    left: 78.5%;
+    top: 87%;
+}
+
+#comChest1 {
+    width: 8.3%;
+    height: 13%;
+    left: 70.3%;
+    top: 87%;
+}
+
+#baltic {
+    width: 8.3%;
+    height: 13%;
+    left: 62.2%;
+    top: 87%;
+}
+
+#incomeTax {
+    width: 8.3%;
+    height: 13%;
+    left: 54%;
+    top: 86.9%;
+}
+
+#readingRR {
+    width: 8.3%;
+    height: 13%;
+    left: 45.9%;
+    top: 86.8%;
+}
+
+#oriental {
+    width: 8.3%;
+    height: 13%;
+    left: 37.7%;
+    top: 86.8%;
+}
+
+#chance1 {
+    width: 8.3%;
+    height: 13%;
+    left: 29.5%;
+    top: 86.8%;
+}
+
+#vermont {
+    width: 8.2%;
+    height: 13%;
+    left: 21.4%;
+    top: 86.8%;
+}
+
+#connecticut {
+    width: 8.2%;
+    height: 13%;
+    left: 13.2%;
+    top: 86.8%;
+}
+
+#freeParking {
+    width: 13.2%;
+    height: 13%;
+    left: 0%;
+    top: 86.8%;
+}
+
+#stCharles {
+    width: 13.2%;
+    height: 8.2%;
+    left: 0;
+    top: 78.6%;
+}
+
+#electric {
+    width: 13.2%;
+    height: 8.2%;
+    left: 0;
+    top: 70.4%;
+}
+
+#states {
+    width: 13.2%;
+    height: 8.2%;
+    left: 0;
+    top: 62.25%;
+}
+
+#virginia {
+    width: 13.2%;
+    height: 8.2%;
+    left: 0;
+    top: 54.1%;
+}
+
+#pennsylvaniaRR {
+    width: 13.2%;
+    height: 8.2%;
+    left: 0;
+    top: 45.9%;
+}
+
+#stJames {
+    width: 13.2%;
+    height: 8.2%;
+    left: 0;
+    top: 37.7%;
+}
+
+#comChest2 {
+    width: 13.2%;
+    height: 8.2%;
+    left: 0;
+    top: 29.55%;
+}
+
+#tennessee {
+    width: 13.2%;
+    height: 8.2%;
+    left: 0;
+    top: 21.4%;
+}
+
+#newYork {
+    width: 13.2%;
+    height: 8.2%;
+    left: 0;
+    top: 13.2%;
+}
+
+#freeParking {
+    width: 13.2%;
+    height: 13.2%;
+    left: 0;
+    top: 0;
+}
+
+#kentucky {
+    width: 8.2%;
+    height: 13.2%;
+    left: 13.2%;
+    top: 0;
+}
+
+#chance2 {
+    width: 8.2%;
+    height: 13.2%;
+    left: 21.4%;
+    top: 0;
+}
+
+#indiana {
+    width: 8.2%;
+    height: 13.2%;
+    left: 29.55%;
+    top: 0;
+}
+
+#illinois {
+    width: 8.2%;
+    height: 13.2%;
+    left: 37.75%;
+    top: 0;
+}
+
+#B_and_O_RR {
+    width: 8.2%;
+    height: 13.2%;
+    left: 45.9%;
+    top: 0;
+}
+
+#atlantic {
+    width: 8.2%;
+    height: 13.2%;
+    left: 54.1%;
+    top: 0;
+}
+
+#ventnor {
+    width: 8.2%;
+    height: 13.2%;
+    left: 62.2%;
+    top: 0;
+}
+
+#water {
+    width: 8.2%;
+    height: 13.2%;
+    left: 70.4%;
+    top: 0;
+}
+
+#marvin {
+    width: 8.2%;
+    height: 13.2%;
+    left: 78.6%;
+    top: 0;
+}
+
+#gotoJAIL {
+    width: 13.2%;
+    height: 13.2%;
+    left: 86.7%;
+    top: 0;
+}
+
+#pacific {
+    width: 13.2%;
+    height: 8.2%;
+    left: 86.7%;
+    top: 13.2%;
+}
+
+#northCarolina {
+    width: 13.2%;
+    height: 8.2%;
+    left: 86.7%;
+    top: 21.4%;
+}
+
+#comChest3 {
+    width: 13.2%;
+    height: 8.2%;
+    left: 86.7%;
+    top: 29.5%;
+}
+
+#pennsylvania {
+    width: 13.2%;
+    height: 8.2%;
+    left: 86.7%;
+    top: 37.7%;
+}
+
+#shortLineRR {
+    width: 13.2%;
+    height: 8.2%;
+    left: 86.7%;
+    top: 45.9%;
+}
+
+#chance3 {
+    width: 13.2%;
+    height: 8.2%;
+    left: 86.7%;
+    top: 54.1%;
+}
+
+#parkPlace {
+    width: 13.2%;
+    height: 8.2%;
+    left: 86.7%;
+    top: 62.25%;
+}
+
+#luxuryTax {
+    width: 13.2%;
+    height: 8.2%;
+    left: 86.7%;
+    top: 70.45%;
+}
+
+#boardwalk {
+    width: 13.2%;
+    height: 8.2%;
+    left: 86.7%;
+    top: 78.6%;
+}

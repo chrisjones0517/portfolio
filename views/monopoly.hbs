@@ -1,0 +1,107 @@
+<div id="board" class="mb-4">
+    <img id="board-img" src="./images/board.png" alt="monopoly board">
+    <div id="go" data-attr="0" class="square"></div>
+    <div id="mediterranean" data-attr="1" class="square"></div>
+    <div id="comChest1" data-attr="2" class="square"></div>
+    <div id="baltic" data-attr="3" class="square"></div>
+    <div id="incomeTax" data-attr="4" class="square"></div>
+    <div id="readingRR" data-attr="5" class="square"></div>
+    <div id="oriental" data-attr="6" class="square"></div>
+    <div id="chance1" data-attr="7" class="square"></div>
+    <div id="vermont" data-attr="8" class="square"></div>
+    <div id="connecticut" data-attr="9" class="square"></div>
+    <div id="justVisiting" data-attr="10" class="square"></div>
+    <div id="stCharles" data-attr="11" class="square"></div>
+    <div id="electric" data-attr="12" class="square"></div>
+    <div id="states" data-attr="13" class="square"></div>
+    <div id="virginia" data-attr="14" class="square"></div>
+    <div id="pennsylvaniaRR" data-attr="15" class="square"></div>
+    <div id="stJames" data-attr="16" class="square"></div>
+    <div id="comChest2" data-attr="17" class="square"></div>
+    <div id="tennessee" data-attr="18" class="square"></div>
+    <div id="newYork" data-attr="19" class="square"></div>
+    <div id="freeParking" data-attr="20" class="square"></div>
+    <div id="kentucky" data-attr="21" class="square"></div>
+    <div id="chance2" data-attr="22" class="square"></div>
+    <div id="indiana" data-attr="23" class="square"></div>
+    <div id="illinois" data-attr="24" class="square"></div>
+    <div id="B_and_O_RR" data-attr="25" class="square"></div>
+    <div id="atlantic" data-attr="26" class="square"></div>
+    <div id="ventnor" data-attr="27" class="square"></div>
+    <div id="water" data-attr="28" class="square"></div>
+    <div id="marvin" data-attr="29" class="square"></div>
+    <div id="gotoJAIL" data-attr="30" class="square"></div>
+    <div id="pacific" data-attr="31" class="square"></div>
+    <div id="northCarolina" data-attr="32" class="square"></div>
+    <div id="comChest3" data-attr="33" class="square"></div>
+    <div id="pennsylvania" data-attr="34" class="square"></div>
+    <div id="shortLineRR" data-attr="35" class="square"></div>
+    <div id="chance3" data-attr="36" class="square"></div>
+    <div id="parkPlace" data-attr="37" class="square"></div>
+    <div id="luxuryTax" data-attr="38" class="square"></div>
+    <div id="boardwalk" data-attr="39" class="square"></div>
+    <div id="action-div">
+        <button id="roll" class="btn btn-primary">Roll</button>
+        <h2 id="rollOutcome"></h2>
+    </div>
+</div>
+
+<div id="deed" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div id="deedTitle" class="text-center">
+                <p class="mt-2">TITLE DEED</p>
+                <h4 id="deedName" class="mb-3">MEDITERRANEAN AVE.</h4>
+            </div>
+            <div class="modal-body">
+                <div id="deedDiv" class="container">
+                    <p class="text-center">RENT $<span id="rent"></span></p>
+                    <span>With 1 House<span class="float-right">$<span id="house1"></span></span></span><br>
+                    <span>With 2 Houses<span class="float-right">$<span id="house2"></span></span></span><br>
+                    <span>With 3 Houses<span class="float-right">$<span id="house3"></span></span></span><br>
+                    <span>With 4 House<span class="float-right">$<span id="house4"></span></span></span><br>
+                    <p class="text-center">With Hotel <span>$<span id="hotel"></span></span></p>
+                    <div class="text-center"><span>Mortgage Value $<span id="mortVal"></span></span></div>
+                    <div class="text-center"><span>Houses cost $<span id="houseCost"></span> each</span></div>
+                    <div class="text-center"><span>Hotels, $<span id="hotelsCost"></span> plus 4 houses</span></div>
+                    <p class="text-muted mt-3">If a player owns ALL the lots of a color group, the rent is doubled on
+                        unimpoved lots in that group.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="chooseToken" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>Choose a token for player 1:</h4>
+            </div>
+            <div class="modal-body">
+                <input id="hat" type="radio" name="token" value="hat" checked> <label for="hat"><img
+                        src="./images/hat.png" width="40" alt="hat token"></label><br><br>
+                <input id="iron" type="radio" name="token" value="iron"> <label for="iron"><img src="./images/iron.png"
+                        width="40" alt="iron token"></label><br><br>
+                <input id="dog" type="radio" name="token" value="dog"> <label for="dog"><img src="./images/dog.png"
+                        width="40" alt="dog token"></label><br><br>
+                <input id="car" type="radio" name="token" value="car"> <label for="car"><img src="./images/car.png"
+                        width="40" alt="car token"></label><br><br>
+                <input id="boot" type="radio" name="token" value="boot"> <label for="boot"><img src="./images/boot.png"
+                        width="40" alt="boot token"></label><br><br>
+                <input id="ship" type="radio" name="token" value="ship"> <label for="ship"><img src="./images/ship.png"
+                        width="40" alt="battle ship token"></label><br><br>
+                <input id="thimble" type="radio" name="token" value="thimble"> <label for="thimble"><img
+                        src="./images/thimble.png" width="25" alt="thimble token"></label><br><br>
+                <input id="wheelBarrow" type="radio" name="token" value="wheelBarrow"> <label for="wheelBarrow"><img
+                        src="./images/wheelBarrow.png" width="45" alt="wheel barrow token"></label><br>
+            </div>
+            <div class="modal-footer">
+                <button id="tokenBtn" type="submit" class="btn btn-primary">Next</button>
+            </div>
+        </div>
+    </div>
+</div>
